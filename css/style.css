@@ -1,0 +1,68 @@
+body {
+    font-family: BlinkMacSystemFont, 'Segoe UI', 'Roboto';
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin: 0;
+  }
+  
+  h1 {
+    margin-bottom: 0;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  a {
+    color: #477ca7;
+  }
+
+  p {
+    text-align: justify;
+    text-align-last: center;
+  }
+  
+  #main {
+    margin: 28px 10px;
+    padding: 17px;
+    border-radius: 7px;
+    background: Gainsboro;
+  }
+  
+  @media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-div {
+    background: white;
+    padding: 12px;
+    margin: 0;
+  }
+  
+  #img-caption {
+    margin: 17px 0 7px 0;
+  }
+  
+  @media (max-width: 460px) {
+    #img-caption {
+      font-size: 14px;
+    }
+  }  
+
+  ul {
+    max-width: 4000px;
+    margin: 0 auto 100px auto;
+    text-align: left;
+    line-height: 2;
+  }
